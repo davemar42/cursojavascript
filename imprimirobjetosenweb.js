@@ -15,4 +15,6 @@ for(nombrepropiedad in coches){
     console.log(coches[nombrepropiedad])
 }
 let cochesarray=Object.values(coches);
-console.log(cochesarray)
+console.log(cochesarray);
+let cochesString=JSON.stringify(coches);
+console.log(cochesString);
